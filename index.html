@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arseni Shabanau — Junior Project Manager</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Editorial Sans-Serif (DM Sans) + Geometric Display (Space Grotesk alt: Familjen Grotesk) -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,300&family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- =============================================
+       HEADER — fixed top bar
+  ============================================= -->
+    <header class="site-header">
+        <div class="container header-inner">
+
+            <!-- Avatar: replace src with your photo file -->
+            <a href="#top" class="header-logo">
+                <img src="avatar.jpg" alt="Arseni Shabanau" class="avatar" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+                <!-- Fallback initials if avatar.jpg is missing -->
+                <span class="avatar-fallback">AS</span>
+                <span class="header-name">Arseni<span class="dot">.</span></span>
+            </a>
+
+            <!-- Navigation -->
+            <nav class="header-nav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#video" class="nav-link">Video</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contacts" class="nav-link">Contact</a>
+            </nav>
+
+            <!-- CV download in header -->
+            <!-- FILE: place Arseni_Shabanau_CV.pdf next to index.html -->
+            <a href="Arseni_Shabanau_CV.pdf" download="Arseni_Shabanau_CV.pdf" class="btn-primary btn-sm">
+        Download CV
+      </a>
+
+        </div>
+    </header>
+
+
+    <!-- =============================================
+       HERO SECTION
+  ============================================= -->
+    <section id="top" class="hero-section">
+        <div class="container hero-inner">
+
+            <!-- Role label -->
+            <p class="hero-role reveal">Junior Project Manager</p>
+
+            <!-- Name — large, editorial -->
+            <h1 class="hero-name reveal">Arseni<br>Shabanau</h1>
+
+            <!-- Offer / tagline -->
+            <p class="hero-offer reveal">
+                Delivering project excellence<br> from concept to complection.
+            </p>
+
+            <!-- CTA buttons -->
+            <div class="hero-cta reveal">
+                <a href="#projects" class="btn-primary">View Projects</a>
+                <!-- FILE: Arseni_Shabanau_CV.pdf must be in the same folder -->
+                <a href="Arseni_Shabanau_CV.pdf" download="Arseni_Shabanau_CV.pdf" class="btn-outline">
+          Download CV
+        </a>
+            </div>
+
+        </div>
+
+        <!-- Decorative horizontal rule at bottom of hero -->
+        <div class="hero-rule"></div>
+    </section>
+
+
+    <!-- =============================================
+       ABOUT ME
+  ============================================= -->
+    <section id="about" class="section-about">
+        <div class="container section-inner">
+
+            <h2 class="section-heading reveal">About Me</h2>
+
+            <div class="about-body reveal">
+                <p>
+                    My name is Arseny, I'm 24 years old. For the past two years, I've worked as a shift leader — setting up processes, managing a team, and delivering results. I know what it looks like when everything runs smoothly, and I know what to do when something breaks.
+                </p>
+                <p>
+                    I connect with people easily — I enjoy it, and I'm good at it. Coordinating a team, assigning tasks, hitting goals — that's my strength. I love modern technology, digging into details, and finding non‑obvious solutions. Chess taught me to think several
+                    moves ahead and to see how every action connects to the final outcome. I also studied to be a translator — I speak fluent English and Polish, which helps me work confidently with international teams and clients.
+                </p>
+                <p>Now I'm growing as a project manager — combining a human approach, systematic thinking, and a passion for tools that make work faster and cleaner. Let's connect — I'm always open to interesting projects and great teams.</p>
+            </div>
+
+            <!-- Stat row -->
+            <div class="stats-row reveal">
+                <div class="stat-item">
+                    <span class="stat-num">3+</span>
+                    <span class="stat-label">Years in operations</span>
+                </div>
+                <div class="stat-sep"></div>
+                <div class="stat-item">
+                    <span class="stat-num">10+</span>
+                    <span class="stat-label">AI tools in daily use</span>
+                </div>
+                <div class="stat-sep"></div>
+                <div class="stat-item">
+                    <span class="stat-num">3</span>
+                    <span class="stat-label">Live projects</span>
+                </div>
+                <div class="stat-sep"></div>
+                <div class="stat-item">
+                    <span class="stat-num">∞</span>
+                    <span class="stat-label">Curiosity</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- =============================================
+       VIDEO INTRODUCTION
+  ============================================= -->
+    <section id="video" class="section-video">
+        <div class="container section-inner">
+
+            <h2 class="section-heading reveal">Meet Me in 60 Seconds</h2>
+
+            <!-- Video player
+           FILE: place intro-video.mp4 and video-preview.jpg next to index.html -->
+            <div class="video-frame reveal">
+                <video controls poster="video-preview.jpg" preload="metadata" class="video-player">
+          <source src="intro-video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+            </div>
+
+            <p class="video-caption reveal">English · approx. 60 seconds</p>
+
+        </div>
+
+    </section>
+
+
+    <!-- =============================================
+       CERTIFICATE (compact badge)
+  ============================================= -->
+
+
+
+
+    <!-- =============================================
+       PROJECTS (3 cards)
+  ============================================= -->
+    <section id="projects" class="section-projects">
+        <div class="container section-inner">
+
+            <h2 class="section-heading reveal">Projects & Certificates</h2>
+            <p class="section-subheading reveal">
+
+            </p>
+
+            <div class="projects-stack">
+
+
+                <!-- ── PROJECT 1: 
+        ─────────────────────────────────────────────────────── -->
+                <div class="project-card reveal">
+
+                    <div class="project-left">
+                        <p class="project-category">AI Automation & Knowledge Management</p>
+                        <h3 class="project-title">AI-Native Project Management Workspace (Notion)</h3>
+                        <p class="project-desc">
+                            Designed and deployed a fully integrated, AI-driven project management and knowledge ecosystem. The goal was to eliminate administrative overhead for cross-functional teams by automating meeting summaries, product requirement generation, and context retrieval
+                            using AI.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tag">Notion</span>
+                            <span class="tag">Architecture Design</span>
+                            <span class="tag">Knowledge QA Integration</span>
+                            <span class="tag">Database</span>
+                        </div>
+                    </div>
+
+                    <div class="project-right">
+                        <!-- QR: replace data= with your real URL -->
+
+                        <!-- EDIT href -->
+                        <a href="https://app.notion.com/p/AI-Driven-Project-Managment-Work-36fd46f1e7db80d2a875cee5d5fe1e9f?source=copy_link" target="_blank" rel="noopener" class="btn-primary btn-block">
+              Open Project
+            </a>
+                    </div>
+
+                </div>
+                <!-- /project 1 -->
+
+
+                <!-- ── PROJECT 2: 
+        ─────────────────────────────────────────────────────── -->
+                <div class="project-card reveal">
+
+                    <div class="project-left">
+                        <p class="project-category">Certficate</p>
+                        <h3 class="project-title">Foundations of Project Management(In Progress)</h3>
+                        <p class="project-desc">
+                            Skilled in the full project lifecycle (Initiation to Closing) — creating Project Charters, RACI matrices, risk registers, and other key artifacts. Practical experience with Agile/Scrum: facilitating all sprint events, managing backlogs, and applying Scrum
+                            roles. Strong in stakeholder communication, conflict resolution, and expectation management. Trained to identify risks, control scope creep, and unblock cross‑functional teams.</p>
+                        <div class="tech-tags">
+                            <span class="tag">Agile Project Management</span>
+                            <span class="tag">Backlogs</span>
+                            <span class="tag">Change Management</span>
+                            <span class="tag">Product Quality(QA/QC)</span>
+                            <span class="tag">Project Management</span>
+                        </div>
+                    </div>
+
+                    <div class="project-right">
+
+                        <a href="#" target="_blank" rel="noopener" class="btn-primary btn-block">
+              Open Certificate
+            </a>
+                    </div>
+
+                </div>
+                <!-- /project 2 -->
+
+
+                <!-- ── PROJECT 3: 
+        ─────────────────────────────────────────────────────── -->
+                <div class="project-card reveal">
+
+                    <div class="project-left">
+                        <p class="project-category">Certificate</p>
+                        <h3 class="project-title">React + JS Course</h3>
+                        <p class="project-desc">
+                            A structured Notion workspace with an embedded AI assistant that answers questions from the internal wiki. Includes automated weekly digests, a decision log, and onboarding templates — keeping company knowledge searchable and always current.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">JS</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">MAMP</span>
+                        </div>
+                    </div>
+
+                    <div class="project-right">
+
+                        <a href="UC-51b463ee-e522-4a4a-9329-da6ddb2a61b8.pdf" target="_blank" rel="noopener" class="btn-primary btn-block">
+              Open Cerificate
+            </a>
+                    </div>
+
+                </div>
+                <!-- /project 3 -->
+
+
+
+                <div class="project-card reveal">
+
+                    <div class="project-left">
+                        <p class="project-category">Pet Project</p>
+                        <h3 class="project-title">Interactive Web-Resume (Front-end)</h3>
+                        <p class="project-desc">
+                            Developed the semantic HTML structure, wrote clean responsive CSS for mobile/desktop layouts, and managed the deployment.Having hands-on experience with front-end basics allows me to estimate tasks better, understand development bottlenecks, and speak
+                            the same language as the engineering team. </p>
+                        <div class="tech-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3 (Flexbox/Grid)</span>
+                            <span class="tag">Adaptive Design</span>
+                            <span class="tag">Git</span>
+                            <span class="tag">Figma</span>
+                        </div>
+                    </div>
+
+                    <div class="project-right">
+
+                        <a href="https://seniash.github.io/resume-rsschool/" target="_blank" rel="noopener" class="btn-primary btn-block">
+            Open Project
+          </a>
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+            <!-- /projects-stack -->
+        </div>
+    </section>
+
+
+    <!-- =============================================
+       SKILLS
+  ============================================= -->
+    <section id="skills" class="section-skills">
+        <div class="container section-inner">
+
+            <h2 class="section-heading reveal">Skills</h2>
+
+            <div class="skills-grid reveal">
+
+                <!-- Category card -->
+
+                <div class="skill-card">
+                    <p class="skill-cat">Technical</p>
+                    <div class="skill-pills">
+                        <span class="pill">HTML / CSS</span>
+                        <span class="pill">JavaScript</span>
+                        <span class="pill">Git</span>
+                        <span class="pill">SAP</span>
+                        <span class="pill">Excel</span>
+                        <span class="pill">Jira</span>
+                        <span class="pill">Notion</span>
+                    </div>
+                </div>
+
+
+
+                <div class="skill-card">
+                    <p class="skill-cat">Soft Skills</p>
+                    <div class="skill-pills">
+                        <span class="pill">Leadership</span>
+                        <span class="pill">Operations</span>
+                        <span class="pill">Psychology</span>
+                        <span class="pill">Public Speaking</span>
+                        <span class="pill">Project Closure</span>
+                        <span class="pill">Agile Software Development</span>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <p class="skill-cat">Languages</p>
+                    <div class="skill-pills">
+                        <span class="pill">Russian — Native</span>
+                        <span class="pill">English — C1</span>
+                        <span class="pill">Polish — B2</span>
+                    </div>
+                </div>
+
+            </div>
+            <!-- /skills-grid -->
+        </div>
+    </section>
+
+
+    <!-- =============================================
+       FOOTER / CONTACTS
+  ============================================= -->
+    <footer id="contacts" class="site-footer">
+        <div class="container footer-inner">
+
+            <h2 class="section-heading reveal">Let's Connect</h2>
+            <p class="section-subheading reveal">
+                <br> I reply fast — reach out any way you prefer.
+            </p>
+
+            <div class="contact-row reveal">
+                <!-- EDIT href values -->
+                <a href="https://www.linkedin.com/in/arseni-shabanau-327218241/" target="_blank" rel="noopener" class="btn-outline">
+          LinkedIn
+        </a>
+                <a href="https://t.me/etocenia" target="_blank" rel="noopener" class="btn-outline">
+          Telegram
+        </a>
+                <a href="mailto:shabanau02@gmail.com" class="btn-outline">
+          Email
+        </a>
+                <a href="Arseni_Shabanau_CV.pdf" download="Arseni_Shabanau_CV.pdf" class="btn-primary">
+          Download CV
+        </a>
+            </div>
+
+            <div class="footer-bottom reveal">
+                <p>© 2025 Arseni Shabanau</p>
+                <a href="#top" class="back-top">↑ Top</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
